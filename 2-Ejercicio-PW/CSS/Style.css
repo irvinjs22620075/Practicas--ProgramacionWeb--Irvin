@@ -1,12 +1,38 @@
 table{
     border-collapse:collapse;
     width: 100%;
+    
 }
 th, td{
     border: 1px solid #ddd;
     padding: 8px;
-    text-align: left;
+    text-align: center;
 }
 th{
     background-color: rgb(167, 161, 243);
+}
+h2{
+    text-align: center;
+    background-color: rgb(94, 167, 231);
+}
+.PW{
+background-color: blanchedalmond;
+}
+.LyA{
+    background-color: rgb(183, 250, 255);
+    }
+.LI{
+    background-color: rgb(74, 255, 183);
+}
+.RD{
+    background-color: rgb(255, 183, 183);
+}
+.SO{
+    background-color: rgb(198, 156, 238);
+}
+.IS{
+    background-color: rgb(255, 143, 203);
+}
+.BD{
+    background-color: rgb(234, 234, 234);
 }
