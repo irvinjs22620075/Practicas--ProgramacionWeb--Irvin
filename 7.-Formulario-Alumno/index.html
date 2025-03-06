@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- inicio del primer row -->
+        <div class="row">
+            <div class="col-med-12">
+                <div class="card mt-4">
+                    <div style="background-color: rgb(63, 93, 190);" class="card-header">
+                        <center>
+                            <h3 style="color: white;">INFORMACION DEL ESTUDIANTE</h3>
+                        </center>
+                        <button
+                            style="background-color:antiquewhite; border-radius: 20%; float: right; color: rgb(0, 0, 0);">Crear</button>
+                    </div>
+                    <div style="background-color: rgb(132, 177, 223);" class="card-body">
+                        <!-- Segundo row dentro del primero -->
+                        <div class="row">
+                            <div class="col-med-12">
+                                <div class="card mt-4">
+                                    <div style="background-color: rgb(221, 221, 221);" class="card-body">
+                                        <!-- Tercer row dentro del segundo row -->
+                                        <div class="row">
+                                            <!-- inicio de la primera fila de contendeores -->
+                                            <div class="col-md-3">
+                                                <div class="card mt-4">
+                                                    <div style="background-color: rgb(241, 176, 91);" class="card-header">
+                                                        <center>
+                                                            <h6>Nombre Alumno</h6>
+                                                        </center>
+                                                    </div>
+                                                    <div class="card-body">
+
+                                                        <center>
+                                                            <form action="/submit" method="post">
+                                                                <input type="text" id="name" name="name"
+                                                                    required><br><br>
+                                                            </form>
+                                                        </center>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="card mt-4">
+                                                    <div style="background-color:rgb(241, 176, 91);" class="card-header">
+                                                        <center>
+                                                            <h6>Apellido Paterno</h6>
+                                                        </center>
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <center>
+                                                            <form action="/submit" method="post">
+                                                                <input type="text" id="name" name="name"
+                                                                    required><br><br>
+                                                            </form>
+                                                        </center>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="card mt-4">
+                                                    <div style="background-color: rgb(241, 176, 91);" class="card-header">
+                                                        <center>
+                                                            <h6>Apellido materno</h6>
+                                                        </center>
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <center>
+                                                            <form action="/submit" method="post">
+                                                                <input type="text" id="name" name="name"
+                                                                    required><br><br>
+                                                            </form>
+                                                        </center>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="card mt-4">
+                                                    <div style="background-color:rgb(241, 176, 91);" class="card-header">
+                                                        <center>
+                                                            <h6>Numero de control</h6>
+                                                        </center>
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <center>
+                                                            <form action="/submit" method="post">
+                                                                <input type="text" id="name" name="name"
+                                                                    required><br><br>
+                                                            </form>
+                                                        </center>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- fin de la primera fila de contenedores -->
+                                            <!-- segunda fila de contenedores -->
+                                            <div class="col-md-4">
+                                                <div class="card mt-4">
+                                                    <div style="background-color: rgb(241, 176, 91);" class="card-header">
+                                                        <center>
+                                                            <h6>Carrera</h6>
+                                                        </center>
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <center>
+                                                            <form action="/submit" method="post">
+
+                                                                <select name="carrera" id="carrera">
+                                                                    <option value="1">Ingenieria en sistemas
+                                                                        computacionales</option>
+                                                                    <option value="2">Ingenieria Mecatronica</option>
+                                                                    <option value="1">Ingenieria industrial</option>
+                                                                    <option value="2">Ingenieria en gestion empresarial
+                                                                    </option>
+                                                                    <option value="1">Ingenieria civil</option>
+                                                                    <option value="2">Licenciatura en Administracion
+                                                                    </option>
+                                                                    <option value="2">Licenciatura en arquitectura
+                                                                    </option>
+                                                                </select>
+                                                            </form>
+                                                        </center>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="card mt-4">
+                                                    <div style="background-color: rgb(241, 176, 91);" class="card-header">
+                                                        <center>
+                                                            <h6>Semestre</h6>
+                                                        </center>
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <center>
+                                                            <form action="/submit" method="post">
+                                                                <input type="text" id="name" name="name"
+                                                                    required><br><br>
+                                                            </form>
+                                                        </center>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="card mt-4">
+                                                    <div style="background-color: rgb(241, 176, 91);" class="card-header">
+                                                        <center>
+                                                            <h6>Grupo</h6>
+                                                        </center>
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <center>
+                                                            <form action="/submit" method="post">
+                                                                <input type="text" id="name" name="name"
+                                                                    required><br><br>
+                                                            </form>
+                                                        </center>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- fin de la segunda fila de contenedores -->
+                                            <!-- inicio de la tercera fila de contenedores -->
+                                            <div class="col-md-4">
+                                                <div class="card mt-4">
+                                                    <div style="background-color: rgb(241, 176, 91);" class="card-header">
+                                                        <center>
+                                                            <h6>Ubicacion</h6>
+                                                        </center>
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <center>
+                                                            <form action="/submit" method="post">
+                                                                <input type="text" id="name" name="name"
+                                                                    required><br><br>
+                                                            </form>
+                                                        </center>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="card mt-4">
+                                                    <div style="background-color:rgb(241, 176, 91);" class="card-header">
+                                                        <center>
+                                                            <h6>Calle</h6>
+                                                        </center>
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <center>
+                                                            <form action="/submit" method="post">
+                                                                <input type="text" id="name" name="name"
+                                                                    required><br><br>
+                                                            </form>
+                                                        </center>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="card mt-4">
+                                                    <div style="background-color: rgb(241, 176, 91);" class="card-header">
+                                                        <center>
+                                                            <h6>Codigo Postal</h6>
+                                                        </center>
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <center>
+                                                            <form action="/submit" method="post">
+                                                                <input type="text" id="name" name="name"
+                                                                    required><br><br>
+                                                            </form>
+                                                        </center>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- fin de la tercera fila de contenedores -->
+                                        </div>
+                                        <!-- fin del tercer row dentro del segundo row -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- fin del segundo row dentro del primero -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- fin del primer row -->
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
